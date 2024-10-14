@@ -1,0 +1,71 @@
+/* google fonts雲端字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+
+:root,
+[data-bs-theme-light]{
+    --bs-dark-rgb: 0, 41, 77;
+}
+/* 雲端字體套用body標籤 */
+body{
+    font-family: "微軟正黑體", "Noto Sans TC", sans-serif;
+}
+
+
+ /* 選取器是標籤，影響整體 */
+h2{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: rgb(94, 74, 238);
+}
+/* 選取器是類別，影響個別，需手動套用 */
+.h2-custom-pink {
+    font-size: 3rem;
+    font-weight: 900; /*字體粗(100~900)*/
+    color: rgb(249, 8, 225);
+}
+
+.card-custom{
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(249, 60, 255);
+    border-radius: 5px;
+}
+
+
+footer a {
+    text-decoration: none;
+}
+.phHomeBtn {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.iconsTitle {
+    font-size: 2.2rem;
+    color: rgb(94, 74, 238);
+    vertical-align: bottom;
+}
+
+.list-no {
+    list-style-type: decimal-leading-zero;
+}
+.card-no-border{
+    border: none;
+}
+
+h4 {
+    font-weight: 900;
+}
+h5 {
+    font-weight: 900;
+}
+
+.span_1 {
+    font-weight: 1000;
+}
+.span_2 {
+    font-weight: 1000;
+    color: rgb(201, 76, 72);
+}
